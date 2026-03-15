@@ -1,18 +1,36 @@
 # Active Tasks - Phase 1
 
-## Current Sprint - Backend Setup
+## Current Sprint
 
-### Infrastructure
+### Frontend Features - In Progress
 
-- [ ] T001: Set up PostgreSQL database (local or cloud)
-- [ ] T002: Create backend project structure (backend/)
-- [ ] T003: Set up Python virtual environment and requirements.txt
-- [ ] T004: Configure FastAPI with CORS and middleware
-- [ ] T005: Set up SQLAlchemy with Alembic
+- [ ] T026: Implement shop detail page
+- [ ] T027: Implement add order form
+- [ ] T028: Implement order list per shop
+- [ ] T029: Implement order total calculation
+
+### Payment Tracking - Pending
+
+- [ ] T030: Implement add payment form
+- [ ] T031: Implement payment history per shop
+
+### Balance Tracking - Pending
+
+- [ ] T032: Implement balance display on shop list (done)
+- [ ] T033: Implement balance calculation from API (done)
+
+### Testing & Polish - Pending
+
+- [ ] T034: Write Playwright tests for shop management
+- [ ] T035: Write Playwright tests for order management
+- [ ] T036: Write Playwright tests for payment tracking
+- [ ] T037: Mobile-first responsive styling
+- [ ] T038: Large touch targets (min 48px)
+- [ ] T039: Loading states and error handling
 
 ---
 
 ## Notes
 
-Updated for Next.js + FastAPI + PostgreSQL stack. 
-Tasks T001-T005 moved to active.md for Sprint 1.
+Backend fully implemented. Frontend shop list with search and add shop dialog is complete.
+Shop detail page with orders and payments still needed.

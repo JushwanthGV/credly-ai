@@ -1,1 +1,9 @@
-node_modules/ 
+
+random.txt
+node_modules/
+backend/venv/
+.env
+__pycache__/
+.ruff_cache/
+.env
+backend/.env
